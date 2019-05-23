@@ -1,4 +1,7 @@
 n=int(input())
 p=int(input())
-s=n**p
-print(s)
+power=1
+i=1
+while(i<=e):
+  i=i+1
+print(power)
