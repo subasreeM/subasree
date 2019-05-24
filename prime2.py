@@ -7,5 +7,5 @@ for num in range(start + 1, end ):
 			if (num % i) == 0:
 				break
 		else:
-			print(num)
+			print(num, end = " ")
 		
