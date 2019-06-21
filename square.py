@@ -1,8 +1,8 @@
+import math
 a,b=map(int,input().split())
-m=a*b
-for i in range(0,m):
-	if(i**2==m):
-		print("yes")
-		break
+c=a*b
+v=math.sqrt(c)
+if int(v+0.5)**2==c:
+  print("yes")
 else:
-	print("no")
+  print("no")
