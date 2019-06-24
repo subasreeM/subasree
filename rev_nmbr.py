@@ -1,3 +1,3 @@
-d=int(input())
-s=str(d)
-print(s[::-1])
+fg=int(input())
+hj=str(fg)
+print(hj[::-1])
