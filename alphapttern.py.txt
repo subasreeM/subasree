@@ -1,0 +1,9 @@
+n=int(input())
+l=['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
+if(1<=n<=26):
+  for i in range(0,n):
+    print(*l[0:i+1])
+  for i in range(n-2,-1,-1):
+    print(*l[0:i+1])
+else:
+  print("invalid input")
